@@ -19,18 +19,21 @@
   font-family:var(--text-heading), serif;
   font-size:2rem;
   font-weight:700;
+  line-height:100%;
 }
 
 .text-preset-2 {
   font-family: var(--text-body), sans-serif;
   font-size:0.875rem;
   font-weight:700;
+  line-height:110%;
 }
 
 .text-preset-3 {
   font-family:var(--text-body), sans-serif;
   font-size:0.875rem;
   font-weight:500;
+  line-height:160%;
 }
 
 .text-preset-4 {
@@ -39,6 +42,7 @@
   font-weight:500;
   line-height: 120%;
   letter-spacing: 0.3125rem;
+  text-transform:uppercase;
 }
 
 .text-preset-5 {
@@ -46,6 +50,7 @@
   font-size:0.8125rem;
   font-weight:500;
   line-height:120%;
+  text-decoration: line-through;
 }
 
 /*COLORS*/
