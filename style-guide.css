@@ -1,0 +1,60 @@
+/*TYPOGRAPHY*/
+
+@font-face {
+  font-family:"Fraunces";
+  src: url(./assets/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+  font-family:"Montserrat";
+  src: url(/assets/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+  --text-heading:Fraunces;
+  --text-body:Montserrat;
+}
+
+.text-preset-1 {
+  font-family:var(--text-heading), serif;
+  font-size:2rem;
+  font-weight:700;
+}
+
+.text-preset-2 {
+  font-family: var(--text-body), sans-serif;
+  font-size:0.875rem;
+  font-weight:700;
+}
+
+.text-preset-3 {
+  font-family:var(--text-body), sans-serif;
+  font-size:0.875rem;
+  font-weight:500;
+}
+
+.text-preset-4 {
+  font-family:var(--text-body), sans-serif;
+  font-size:0.75rem;
+  font-weight:500;
+  line-height: 120%;
+  letter-spacing: 0.3125rem;
+}
+
+.text-preset-5 {
+  font-family:var(--text-body), sans-serif;
+  font-size:0.8125rem;
+  font-weight:500;
+  line-height:120%;
+}
+
+/*COLORS*/
+
+:root {
+  --black:#1C232B;
+  --grey:#6C7289;
+  --cream:#F2EAE2;
+  --white:#fff;
+  --green-500:#3D8168;
+  --green-700:#1A4032;
+}
